@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAEEEBEB"
+    tools:context=".finalbill">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvid"
+        android:layout_width="412dp"
+        android:layout_height="489dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/rvid"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="30dp"
+                android:text="Number of product:" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="100dp"
+                android:text="Total Amount:" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/productno"
+                android:layout_width="97dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="30dp"
+                android:text="27"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/totalamount"
+                android:layout_width="295dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="170dp"
+                android:text="300"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/otherbill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundedbutton"
+        android:padding="20dp"
+        android:text="Make Other Bill"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rvid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
