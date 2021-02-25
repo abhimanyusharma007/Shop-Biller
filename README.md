@@ -18,3 +18,18 @@ This project is a Shopping Billing app based on android . In this project all th
 
 ## Scanner Screen of App
 ![Screenshot_20191022-231059 (Phone)](https://user-images.githubusercontent.com/48363301/109134713-5889ad80-777c-11eb-92a6-b0a61f8bf392.jpg)
+
+## Product Description Page 
+```
+Product description page open after the scanning of barcode of the product or item.
+This page show the name and price of the product and take the quantity of the product as user input.
+```
+![Screenshot_20191022-231235 (Phone)](https://user-images.githubusercontent.com/48363301/109158561-892c1000-7799-11eb-8908-ae4c41deee93.jpg)
+
+## Generated Bill Page 
+  #### This page shows:
+  1. Total quantity of products buyed by customer. 
+  2. Total amount of price that customer have to pay.
+  3. Names of all products buyed by customer.
+  
+  ![Screenshot_20191022-231452 (Phone)](https://user-images.githubusercontent.com/48363301/109160254-8fbb8700-779b-11eb-8aa2-12e7175ad226.jpg)
